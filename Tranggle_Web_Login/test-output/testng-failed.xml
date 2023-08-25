@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tranggle_web.Pw_Resetting_1">
+        <methods>
+          <include name="EndDriver"/>
+          <include name="PW_Resetting_Move_Test"/>
+          <include name="SetDriver"/>
+        </methods>
+      </class> <!-- tranggle_web.Pw_Resetting_1 -->
+      <class name="tranggle_web.Normal_Login">
+        <methods>
+          <include name="SetDriver"/>
+          <include name="EndDriver"/>
+          <include name="Login_Test"/>
+        </methods>
+      </class> <!-- tranggle_web.Normal_Login -->
+      <class name="tranggle_web.Account_Information_Save_Check">
+        <methods>
+          <include name="EndDriver"/>
+          <include name="SetDriver"/>
+          <include name="Account_Information_Save_Check_Test"/>
+        </methods>
+      </class> <!-- tranggle_web.Account_Information_Save_Check -->
+      <class name="tranggle_web.Logout">
+        <methods>
+          <include name="Logout_Test"/>
+          <include name="SetDriver"/>
+          <include name="EndDriver"/>
+        </methods>
+      </class> <!-- tranggle_web.Logout -->
+      <class name="tranggle_web.Personal_Information_Processing_Policy">
+        <methods>
+          <include name="SetDriver"/>
+          <include name="EndDriver"/>
+          <include name="Personal_Information_Processing_Policy_Test"/>
+        </methods>
+      </class> <!-- tranggle_web.Personal_Information_Processing_Policy -->
+      <class name="tranggle_web.Id_Search_1">
+        <methods>
+          <include name="ID_Search_Move_Test"/>
+          <include name="SetDriver"/>
+          <include name="EndDriver"/>
+        </methods>
+      </class> <!-- tranggle_web.Id_Search_1 -->
+      <class name="tranggle_web.Terms_And_Conditions_Of_Service">
+        <methods>
+          <include name="EndDriver"/>
+          <include name="SetDriver"/>
+          <include name="Service_Detail_Test"/>
+        </methods>
+      </class> <!-- tranggle_web.Terms_And_Conditions_Of_Service -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

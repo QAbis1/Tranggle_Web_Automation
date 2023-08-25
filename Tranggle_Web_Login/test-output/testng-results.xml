@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-16T19:11:48 KST" name="Default suite" finished-at="2023-08-16T19:14:26 KST" duration-ms="157740">
+    <groups>
+    </groups>
+    <test started-at="2023-08-16T19:11:48 KST" name="Default test" finished-at="2023-08-16T19:14:26 KST" duration-ms="157740">
+      <class name="tranggle_web.Personal_Information_Processing_Policy">
+        <test-method is-config="true" signature="SetDriver()[pri:0, instance:tranggle_web.Personal_Information_Processing_Policy@72e5a8e]" started-at="2023-08-16T19:11:48 KST" name="SetDriver" finished-at="2023-08-16T19:11:54 KST" duration-ms="6311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="Personal_Information_Processing_Policy_Test()[pri:0, instance:tranggle_web.Personal_Information_Processing_Policy@72e5a8e]" started-at="2023-08-16T19:11:54 KST" name="Personal_Information_Processing_Policy_Test" finished-at="2023-08-16T19:12:06 KST" duration-ms="11468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Personal_Information_Processing_Policy_Test -->
+        <test-method is-config="true" signature="EndDriver()[pri:0, instance:tranggle_web.Personal_Information_Processing_Policy@72e5a8e]" started-at="2023-08-16T19:12:06 KST" name="EndDriver" finished-at="2023-08-16T19:12:06 KST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDriver -->
+      </class> <!-- tranggle_web.Personal_Information_Processing_Policy -->
+      <class name="tranggle_web.Id_Search_1">
+        <test-method is-config="true" signature="SetDriver()[pri:0, instance:tranggle_web.Id_Search_1@2d52216b]" started-at="2023-08-16T19:12:55 KST" name="SetDriver" finished-at="2023-08-16T19:13:01 KST" duration-ms="5882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="ID_Search_Move_Test()[pri:0, instance:tranggle_web.Id_Search_1@2d52216b]" started-at="2023-08-16T19:13:01 KST" name="ID_Search_Move_Test" finished-at="2023-08-16T19:13:08 KST" duration-ms="7432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ID_Search_Move_Test -->
+        <test-method is-config="true" signature="EndDriver()[pri:0, instance:tranggle_web.Id_Search_1@2d52216b]" started-at="2023-08-16T19:13:08 KST" name="EndDriver" finished-at="2023-08-16T19:13:08 KST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDriver -->
+      </class> <!-- tranggle_web.Id_Search_1 -->
+      <class name="tranggle_web.Account_Information_Save_Check">
+        <test-method is-config="true" signature="SetDriver()[pri:0, instance:tranggle_web.Account_Information_Save_Check@771a660]" started-at="2023-08-16T19:12:06 KST" name="SetDriver" finished-at="2023-08-16T19:12:12 KST" duration-ms="5838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="Account_Information_Save_Check_Test()[pri:0, instance:tranggle_web.Account_Information_Save_Check@771a660]" started-at="2023-08-16T19:12:12 KST" name="Account_Information_Save_Check_Test" finished-at="2023-08-16T19:12:47 KST" duration-ms="35492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_Information_Save_Check_Test -->
+        <test-method is-config="true" signature="EndDriver()[pri:0, instance:tranggle_web.Account_Information_Save_Check@771a660]" started-at="2023-08-16T19:12:47 KST" name="EndDriver" finished-at="2023-08-16T19:12:55 KST" duration-ms="7332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDriver -->
+      </class> <!-- tranggle_web.Account_Information_Save_Check -->
+      <class name="tranggle_web.Terms_And_Conditions_Of_Service">
+        <test-method is-config="true" signature="SetDriver()[pri:0, instance:tranggle_web.Terms_And_Conditions_Of_Service@242b836]" started-at="2023-08-16T19:13:08 KST" name="SetDriver" finished-at="2023-08-16T19:13:14 KST" duration-ms="5762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="Service_Detail_Test()[pri:0, instance:tranggle_web.Terms_And_Conditions_Of_Service@242b836]" started-at="2023-08-16T19:13:14 KST" name="Service_Detail_Test" finished-at="2023-08-16T19:13:24 KST" duration-ms="9718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Service_Detail_Test -->
+        <test-method is-config="true" signature="EndDriver()[pri:0, instance:tranggle_web.Terms_And_Conditions_Of_Service@242b836]" started-at="2023-08-16T19:13:24 KST" name="EndDriver" finished-at="2023-08-16T19:13:24 KST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDriver -->
+      </class> <!-- tranggle_web.Terms_And_Conditions_Of_Service -->
+      <class name="tranggle_web.Logout">
+        <test-method is-config="true" signature="SetDriver()[pri:0, instance:tranggle_web.Logout@3f6f6701]" started-at="2023-08-16T19:13:24 KST" name="SetDriver" finished-at="2023-08-16T19:13:30 KST" duration-ms="5967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="Logout_Test()[pri:0, instance:tranggle_web.Logout@3f6f6701]" started-at="2023-08-16T19:13:30 KST" name="Logout_Test" finished-at="2023-08-16T19:13:47 KST" duration-ms="17065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Test -->
+        <test-method is-config="true" signature="EndDriver()[pri:0, instance:tranggle_web.Logout@3f6f6701]" started-at="2023-08-16T19:13:47 KST" name="EndDriver" finished-at="2023-08-16T19:13:48 KST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDriver -->
+      </class> <!-- tranggle_web.Logout -->
+      <class name="tranggle_web.Pw_Resetting_1">
+        <test-method is-config="true" signature="SetDriver()[pri:0, instance:tranggle_web.Pw_Resetting_1@3527942a]" started-at="2023-08-16T19:13:48 KST" name="SetDriver" finished-at="2023-08-16T19:13:53 KST" duration-ms="5634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="PW_Resetting_Move_Test()[pri:0, instance:tranggle_web.Pw_Resetting_1@3527942a]" started-at="2023-08-16T19:13:53 KST" name="PW_Resetting_Move_Test" finished-at="2023-08-16T19:14:01 KST" duration-ms="7431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PW_Resetting_Move_Test -->
+        <test-method is-config="true" signature="EndDriver()[pri:0, instance:tranggle_web.Pw_Resetting_1@3527942a]" started-at="2023-08-16T19:14:01 KST" name="EndDriver" finished-at="2023-08-16T19:14:01 KST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDriver -->
+      </class> <!-- tranggle_web.Pw_Resetting_1 -->
+      <class name="tranggle_web.Normal_Login">
+        <test-method is-config="true" signature="SetDriver()[pri:0, instance:tranggle_web.Normal_Login@942a29c]" started-at="2023-08-16T19:14:01 KST" name="SetDriver" finished-at="2023-08-16T19:14:07 KST" duration-ms="5800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="Login_Test()[pri:0, instance:tranggle_web.Normal_Login@942a29c]" started-at="2023-08-16T19:14:07 KST" name="Login_Test" finished-at="2023-08-16T19:14:20 KST" duration-ms="13196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test -->
+        <test-method is-config="true" signature="EndDriver()[pri:0, instance:tranggle_web.Normal_Login@942a29c]" started-at="2023-08-16T19:14:20 KST" name="EndDriver" finished-at="2023-08-16T19:14:26 KST" duration-ms="5453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndDriver -->
+      </class> <!-- tranggle_web.Normal_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
