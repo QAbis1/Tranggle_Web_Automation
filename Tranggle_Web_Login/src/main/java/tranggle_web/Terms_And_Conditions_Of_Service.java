@@ -159,7 +159,8 @@ public class Terms_And_Conditions_Of_Service {
 		String service_Detail_Page_Title_Text = service_Detail_Page_Title.getText();
 
 		// 서비스 이용약관 타이틀 문구 확인으로 서비스 이용약관 페이지 정상 이동을 확인
-		if (service_Detail_Page_Title_Text.equals("서비스 이용약관 (시행일자 2023.05.15)")) {
+		// 2024.09.17 baek ilsung - 서비스 이용약관 타이틀 문구 변경 (서비스 이용약관 (시행일 2024.05.08))
+		if (service_Detail_Page_Title_Text.equals("서비스 이용약관 (시행일자 2024.05.08)")) {
 			System.out.println("Service_Detail_Test() - Terms_And_Conditions_Of_Service Page Move Success :"
 					+ service_Detail_Page_Title_Text);
 		} else {
