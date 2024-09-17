@@ -164,7 +164,8 @@ public class Personal_Information_Processing_Policy {
 		String personal_Inf_Processing_Policy_Tap_Title_Text = personal_Inf_Processing_Policy_Tap_Title.getText();
 
 		// 개인정보처리방침 타이틀 문구 확인으로 개인정보처리방침 페이지 정상 이동을 확인
-		if (personal_Inf_Processing_Policy_Tap_Title_Text.equals("개인정보처리방침 (시행일자 2023.8.1)")) {
+		// 20240917 Baek ilsung- 개인정보처리 방침 타이틀 변경 (개인정보 처리방침 (시행일자 2024.09.02)
+		if (personal_Inf_Processing_Policy_Tap_Title_Text.equals("개인정보 처리방침 (시행일자 2024.09.02)")) {
 			System.out.println(
 					"Personal_Information_Processing_Policy_Test() - Personal_Inf_Processing_Policy Page Move Success : "
 							+ personal_Inf_Processing_Policy_Tap_Title_Text);
